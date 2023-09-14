@@ -34,18 +34,7 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | Size              | 4        | 3          |
 | **Total Score**       | **32**       | **29**       |
 
-
-**3. Mengapa memilih salah satunya?**
-
-- **Mengapa memilih NestJS?**
-  - **Pro**: NestJS menawarkan dukungan bawaan untuk TypeScript, pengaturan awal yang konsisten, dan pendekatan modular terhadap pengembangan aplikasi.
-  - **Con**: Kurva belajar mungkin sedikit lebih curam bagi mereka yang belum familiar dengan TypeScript atau konsep OOP.
-  
-- **Mengapa memilih Express.js?**
-  - **Pro**: Express.js adalah framework yang sudah lama ada, stabil, dan memiliki komunitas yang besar. Penggunaannya juga lebih sederhana.
-  - **Con**: Pengembang mungkin perlu menghabiskan lebih banyak waktu untuk setup dan konfigurasi tambahan, terutama jika menginginkan fitur yang tidak disertakan secara default.
-
-  **Penjelasan Skoring:**
+ **Penjelasan Skoring:**
 
 - **Maintenance:** NestJS sering mendapatkan pembaruan, sedangkan Express.js, meskipun masih aktif, memiliki frekuensi pembaruan yang sedikit lebih rendah.
   
@@ -62,6 +51,19 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 - **Extensible:** NestJS, dengan struktur modular dan integrasi TypeScript, memberikan sedikit keunggulan dalam hal ekstensibilitas.
   
 - **Size:** Kedua framework ini memiliki ukuran pustaka yang kecil dan ringan.
+
+
+**3. Mengapa memilih salah satunya?**
+
+- **Mengapa memilih NestJS?**
+  - **Pro**: NestJS menawarkan dukungan bawaan untuk TypeScript, pengaturan awal yang konsisten, dan pendekatan modular terhadap pengembangan aplikasi.
+  - **Con**: Kurva belajar mungkin sedikit lebih curam bagi mereka yang belum familiar dengan TypeScript atau konsep OOP.
+  
+- **Mengapa memilih Express.js?**
+  - **Pro**: Express.js adalah framework yang sudah lama ada, stabil, dan memiliki komunitas yang besar. Penggunaannya juga lebih sederhana.
+  - **Con**: Pengembang mungkin perlu menghabiskan lebih banyak waktu untuk setup dan konfigurasi tambahan, terutama jika menginginkan fitur yang tidak disertakan secara default.
+
+ 
 
 
 
