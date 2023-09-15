@@ -34,23 +34,6 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | Size              | 4        | 3          |
 | **Total Score**       | **32**       | **29**       |
 
- **Penjelasan Skoring:**
-
-- **Maintenance:** NestJS sering mendapatkan pembaruan, sedangkan Express.js, meskipun masih aktif, memiliki frekuensi pembaruan yang sedikit lebih rendah.
-  
-- **Reputable:** Kedua kerangka kerja tersebut dikembangkan oleh pengembang yang dikenal dan memiliki reputasi yang baik dalam komunitas.
-  
-- **Compatibility:** Kedua kerangka kerja ini sangat kompatibel dengan berbagai teknologi dan arsitektur lainnya.
-  
-- **Community:** Express.js dan NestJS memiliki komunitas global yang besar.
-  
-- **Documentation:** Kedua kerangka kerja ini memiliki dokumentasi web yang lengkap.
-  
-- **Licensing:** Keduanya adalah open source.
-  
-- **Extensible:** NestJS, dengan struktur modular dan integrasi TypeScript, memberikan sedikit keunggulan dalam hal ekstensibilitas.
-  
-- **Size:** Kedua framework ini memiliki ukuran pustaka yang kecil dan ringan.
 
 
 **3. Mengapa memilih salah satunya?**
