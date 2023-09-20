@@ -81,9 +81,6 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | 3. Mendukung nested routing dengan mudah. | 3. Mungkin kurangnya plugin atau integrasi dibandingkan dengan solusi lain. |
 | 4. Dekat dengan prinsip-prinsip React asli. | 4. Masih dalam tahap awal perkembangannya. |
 | 5. Peningkatan performa dengan pendekatan "loading" yang cerdas. | 5. Mungkin ada fitur atau kasus penggunaan yang belum didukung sepenuhnya.
-
-Baik, berdasarkan konten yang Anda berikan, saya akan melanjutkan dengan bahasa formal untuk NextJS, Gatsby, dan Remix.
-
 ---
 
 **4. Kapan Sebaiknya Menggunakan Framework Ini?**
@@ -116,3 +113,12 @@ Baik, berdasarkan konten yang Anda berikan, saya akan melanjutkan dengan bahasa 
 - Untuk aplikasi dengan kebutuhan Server-Side Rendering dan kemudahan dalam pengembangan, **Next.js** menjadi pilihan yang menarik.
 - Jika fokus Anda adalah pada situs web statis dengan kecepatan dan performa tinggi, **Gatsby** mungkin lebih sesuai.
 - Bagi mereka yang mencari pendekatan baru dalam pengembangan React dengan optimasi navigasi dan data, **Remix** patut dipertimbangkan.
+
+
+
+### Referensi:
+
+- [NextJs vs Gatsby vs Remix Users Downloads](https://npmtrends.com/gatsby-vs-next-vs-remix)
+- [PHP Official Documentation](https://www.php.net/)
+- [The State of JavaScript 2022](https://stateofjs.com/)
+- [PHP vs. JavaScript: The Battle of Web Programming Languages](https://www.cleveroad.com/blog/php-vs-javascript)
