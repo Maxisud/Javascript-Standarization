@@ -80,4 +80,39 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | 2. Desain berorientasi route untuk optimasi data-fetching. | 2. Dokumentasi dan sumber daya mungkin belum sebanyak framework lain. |
 | 3. Mendukung nested routing dengan mudah. | 3. Mungkin kurangnya plugin atau integrasi dibandingkan dengan solusi lain. |
 | 4. Dekat dengan prinsip-prinsip React asli. | 4. Masih dalam tahap awal perkembangannya. |
-| 5. Peningkatan performa dengan pendekatan "loading" yang cerdas. | 5. Mungkin ada fitur atau kasus penggunaan yang belum didukung sepenuhnya. |
+| 5. Peningkatan performa dengan pendekatan "loading" yang cerdas. | 5. Mungkin ada fitur atau kasus penggunaan yang belum didukung sepenuhnya.
+
+Baik, berdasarkan konten yang Anda berikan, saya akan melanjutkan dengan bahasa formal untuk NextJS, Gatsby, dan Remix.
+
+---
+
+**4. Kapan Sebaiknya Menggunakan Framework Ini?**
+
+- **Kapan Next.js Cocok Dipakai?**
+  1. **Aplikasi dengan Server-Side Rendering (SSR)**: Next.js adalah pilihan unggulan untuk mereka yang membutuhkan SSR dengan React untuk meningkatkan performa dan SEO.
+  2. **Ruting Otomatis**: Jika Anda ingin mengotomatisasi rute berdasarkan struktur direktori, Next.js menyediakan fitur ini tanpa konfigurasi tambahan.
+  3. **Pengembangan Halaman Statis & Aplikasi Web Dinamis**: Next.js menyediakan kemudahan dalam mengembangkan situs web statis atau dinamis tanpa harus mengubah pengaturan dasar.
+  4. **Integrasi API**: Dengan fitur API Routes, Anda dapat dengan mudah membuat endpoint API tanpa server tambahan.
+
+- **Kapan Gatsby Cocok Dipakai?**
+  1. **Situs Web Statis**: Untuk situs yang kontennya jarang berubah dan membutuhkan kecepatan tinggi, Gatsby adalah pilihan tepat.
+  2. **Integrasi Data dengan GraphQL**: Gatsby memungkinkan penggabungan data dari berbagai sumber dengan mudah melalui GraphQL.
+  3. **Performa & Optimasi Gambar**: Gatsby mengoptimalkan gambar dan kode Anda untuk kecepatan pemuatan yang lebih cepat.
+  4. **Plug-in Kaya**: Ekosistem Gatsby yang kaya memudahkan integrasi dengan berbagai layanan dan fungsionalitas.
+
+- **Kapan Remix Cocok Dipakai?**
+  1. **Navigasi Tanpa Pemuatan Ulang**: Remix dirancang untuk navigasi instan tanpa perlu memuat ulang halaman.
+  2. **Optimalisasi Data**: Dengan pendekatan nested routing, Remix memungkinkan pemuatan data yang lebih efisien dan optimal.
+  3. **Pengembangan Berorientasi Komponen**: Jika Anda mencari pendekatan yang lebih terpusat pada komponen, Remix memberikan struktur yang sesuai.
+  4. **Integrasi dengan Sistem Backend**: Remix memudahkan integrasi dengan berbagai sistem backend, memungkinkan pembangunan aplikasi yang lebih kohesif.
+
+
+**5. Popularitas:**
+
+- **Next.js** telah menarik perhatian besar dari komunitas pengembangan dengan lebih dari 112,000 bintang di GitHub dan lebih dari 2,884 kontributor. Dalam 12 bulan terakhir, popularitasnya tampak meningkat sekitar 10%. Sebagai kontrast, **Gatsby**, meski sudah cukup populer, memiliki sekitar 54,7000 bintang di GitHub dengan lebih dari 1,300 kontributor. Popularitas Gatsby dalam setahun terakhir menunjukkan pertumbuhan sekitar 5%. Sementara itu, **Remix**, meskipun masih relatif baru di arena, telah dengan cepat mendapatkan traksi dengan sekitar 24,600 bintang di GitHub dan sekitar 3,982 kontributor. Menariknya, Remix menunjukkan peningkatan popularitas yang paling rendah dalam 12 bulan terakhir, dengan pertumbuhan stagnan. 
+
+**6. Kesimpulan:**
+
+- Untuk aplikasi dengan kebutuhan Server-Side Rendering dan kemudahan dalam pengembangan, **Next.js** menjadi pilihan yang menarik.
+- Jika fokus Anda adalah pada situs web statis dengan kecepatan dan performa tinggi, **Gatsby** mungkin lebih sesuai.
+- Bagi mereka yang mencari pendekatan baru dalam pengembangan React dengan optimasi navigasi dan data, **Remix** patut dipertimbangkan.
