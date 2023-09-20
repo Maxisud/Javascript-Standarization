@@ -119,6 +119,6 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 ### Referensi:
 
 - [NextJs vs Gatsby vs Remix Users Downloads](https://npmtrends.com/gatsby-vs-next-vs-remix)
-- [PHP Official Documentation](https://www.php.net/)
-- [The State of JavaScript 2022](https://stateofjs.com/)
-- [PHP vs. JavaScript: The Battle of Web Programming Languages](https://www.cleveroad.com/blog/php-vs-javascript)
+- [NextJs Pros and Cons](https://pagepro.co/blog/pros-and-cons-of-nextjs/)
+- [What's the difference between Gatsby and Next.js](https://hygraph.com/blog/gatsby-vs-nextjs)
+- [Remix Framework Review](https://hackernoon.com/remix-framework-review)
