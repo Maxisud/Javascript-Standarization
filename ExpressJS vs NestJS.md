@@ -72,8 +72,22 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | 8. Integrasi bawaan dengan banyak pustaka populer. |  |
 | 9. Didukung oleh komunitas yang aktif dan dokumentasi yang kaya. |  |
 
+**4. Kapan Sebaiknya Menggunakan Framework Ini?**
 
-**4. Kesimpulan:**
+- **Kapan NestJS Cocok Dipakai?**
+  1. **Aplikasi Skala Besar**: Untuk proyek yang kompleks dengan banyak modul dan fitur, NestJS memberikan struktur yang lebih terorganisir dan jelas.
+  2. **Tim yang Sudah Menggunakan TypeScript**: Jika tim Anda sudah familiar dengan TypeScript, NestJS akan menjadi pilihan yang alami.
+  3. **Aplikasi Berorientasi Microservices**: Dukungan bawaan NestJS untuk arsitektur berbasis microservices memudahkan pembangunan layanan yang dapat diskalakan dengan mudah.
+  4. **Integrasi dengan Teknologi Spesifik**: Jika proyek Anda membutuhkan integrasi dengan teknologi seperti GraphQL atau WebSockets, NestJS menyediakan solusi yang terintegrasi dengan baik.
+
+- **Kapan Express.js Cocok Dipakai?**
+  1. **Proyek Kecil hingga Menengah**: Untuk aplikasi yang lebih sederhana atau prototipe cepat, Express.js bisa menjadi pilihan yang baik karena kurva pembelajarannya yang lebih rendah.
+  2. **Kustomisasi Tinggi**: Jika Anda ingin memiliki kontrol penuh atas struktur dan middleware yang Anda gunakan, Express.js memberikan fleksibilitas tersebut.
+  3. **Penggunaan Library Spesifik**: Express.js memungkinkan Anda untuk memilih dan memadukan berbagai library sesuai kebutuhan, memungkinkan solusi yang lebih kustom.
+  4. **Migration**: Jika Anda sudah memiliki aplikasi yang berjalan di Express.js dan hanya ingin menambahkan beberapa fitur atau melakukan beberapa perbaikan, mungkin lebih masuk akal untuk tetap menggunakan Express.js daripada beralih ke framework lain.
+
+
+**5. Kesimpulan:**
 
 - Jika Anda mencari kerangka kerja yang lebih terstruktur, dengan fitur bawaan untuk aplikasi skala besar atau enterprise, **NestJS** lebih sesuai.
 
