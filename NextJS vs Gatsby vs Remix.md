@@ -109,7 +109,7 @@ Baik, berdasarkan konten yang Anda berikan, saya akan melanjutkan dengan bahasa 
 
 **5. Popularitas:**
 
-- **Next.js** telah menarik perhatian besar dari komunitas pengembangan dengan lebih dari 112,000 bintang di GitHub dan lebih dari 2,884 kontributor. Dalam 12 bulan terakhir, popularitasnya tampak meningkat sekitar 10%. Sebagai kontrast, **Gatsby**, meski sudah cukup populer, memiliki sekitar 54,7000 bintang di GitHub dengan lebih dari 1,300 kontributor. Popularitas Gatsby dalam setahun terakhir menunjukkan pertumbuhan sekitar 5%. Sementara itu, **Remix**, meskipun masih relatif baru di arena, telah dengan cepat mendapatkan traksi dengan sekitar 24,600 bintang di GitHub dan sekitar 3,982 kontributor. Menariknya, Remix menunjukkan peningkatan popularitas yang paling rendah dalam 12 bulan terakhir, dengan pertumbuhan stagnan. 
+- **Next.js** telah menarik perhatian besar dari komunitas pengembangan dengan lebih dari 112,000 bintang di GitHub dan lebih dari 2,884 kontributor. Dalam 12 bulan terakhir, popularitasnya tampak meningkat sekitar 10%. Sebagai kontrast, **Gatsby**, meski sudah cukup populer, memiliki sekitar 54,7000 bintang di GitHub dengan lebih dari 1,300 kontributor. Popularitas Gatsby dalam setahun terakhir menunjukkan pertumbuhan sekitar 5%. Sementara itu, **Remix**, meskipun masih relatif baru di arena, telah dengan cepat mendapatkan traksi dengan sekitar 24,600 bintang di GitHub dan sekitar 3,982 kontributor. Menariknya, Remix menunjukkan peningkatan popularitas yang paling rendah dalam 12 bulan terakhir, dengan pertumbuhan stagnan. [Sumber](https://npmtrends.com/gatsby-vs-next-vs-remix)
 
 **6. Kesimpulan:**
 
