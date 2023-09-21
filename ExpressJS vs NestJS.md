@@ -31,8 +31,8 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | Documentation     | 4        | 4          |
 | Licensing         | 4        | 4          |
 | Extensible        | 4        | 4          |
-| Size              | 4        | 3          |
-| **Total Score**       | **32**       | **29**       |
+| Size              | 4        | 4          |
+| **Total Score**       | **32**       | **30**       |
 
 
 
