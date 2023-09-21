@@ -24,7 +24,7 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 
 | Kriteria          | NestJS   | Express.js |
 |-------------------|----------|------------|
-| Maintenance       | 4        | 3          |
+| Maintenance       | 4        | 2          |
 | Reputable         | 4        | 4          |
 | Compatibility     | 4        | 4          |
 | Community         | 4        | 4          |
@@ -32,7 +32,7 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | Licensing         | 4        | 4          |
 | Extensible        | 4        | 4          |
 | Size              | 4        | 3          |
-| **Total Score**       | **32**       | **30**       |
+| **Total Score**       | **32**       | **29**       |
 
 
 
