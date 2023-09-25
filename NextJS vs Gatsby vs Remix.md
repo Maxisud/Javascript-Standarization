@@ -1,7 +1,7 @@
-**Frontend Frameworks: Next.js vs Gatsby vs Remix**
+**Frontend Frameworks: Next.js vs Gatsby vs Remix vs Astro**
 
 **Pendahuluan:**
-Next.js, Gatsby, dan Remix adalah tiga framework populer yang digunakan untuk membangun aplikasi web dengan React. Semuanya menawarkan pendekatan yang berbeda dalam hal membangun aplikasi web yang cepat dan dioptimalkan. Sementara Next.js dikenal dengan kemudahannya dalam server-side rendering, Gatsby terkenal dengan pendekatan static site generation-nya, dan Remix menawarkan pendekatan unik dengan nested routing dan optimalisasi performa. Dalam dokumen ini, kita akan membandingkan ketiga framework ini berdasarkan beberapa kriteria untuk membantu Anda menentukan yang terbaik untuk proyek Anda.
+Next.js, Gatsby, Remix, dan Astro adalah empat framework populer yang digunakan untuk membangun aplikasi web. Masing-masing menawarkan pendekatan yang berbeda dalam hal membangun aplikasi web yang cepat dan dioptimalkan. Next.js dikenal dengan kemudahannya dalam server-side rendering dan optimalisasi untuk aplikasi web dinamis. Gatsby, dengan pendekatan static site generation-nya, mengexcel dalam performa situs web statis. Remix menawarkan pendekatan unik dengan nested routing dan optimalisasi performa, dan Astro memungkinkan pengembangan situs web dengan pengiriman Javascript yang efisien untuk kecepatan load halaman yang luar biasa.
 
 **1. Developer Experience dalam Membangun Sebuah Proyek Mini:**
 
@@ -25,20 +25,27 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
   - **Data Loading:** Di Remix, setiap rute dapat mendefinisikan data yang dibutuhkannya, memastikan data tersedia sebelum halaman di-render.
   - **Transition Control:** Remix memberikan kontrol yang lebih besar atas transisi halaman, memberikan pengalaman pengguna yang lebih halus
 
+  - **Astro:**
+  - **Pengiriman JavaScript Efisien:** Astro memungkinkan pengembangan situs dengan mengirimkan JavaScript yang efisien dan minimal, menghasilkan kecepatan load halaman yang sangat cepat.
+  - **Rendering Modes:** Astro menawarkan berbagai mode rendering seperti SSR, SSG, dan lainnya, memberikan fleksibilitas dalam pengembangan aplikasi.
+  - **Komponen Berbasis File:** Struktur berbasis file Astro mempermudah pengembangan dengan pendekatan komponen, memudahkan organisasi kode.
+  - **Penulisan Multi-Bahasa:** Astro mendukung penggunaan beberapa framework seperti React, Vue, dan Svelte dalam satu proyek, memberikan kebebasan lebih dalam pemilihan teknologi.
+
 
   **2. Komponen:**
 
-| Kriteria          | Next.js  | Gatsby | Remix |
-|-------------------|----------|--------|-------|
-| Maintenance       | 4        | 4      | 4     |
-| Reputable         | 4        | 4      | 3     |
-| Compatibility     | 4        | 4      | 4     |
-| Community         | 4        | 4      | 3     |
-| Documentation     | 4        | 4      | 4     |
-| Licensing         | 4        | 4      | 4     |
-| Extensible        | 4        | 4      | 4     |
-| Size              | 3        | 3      | 3     |
-| **Total Score**   | **31**   | **31** | **29**|
+| Kriteria          | Next.js  | Gatsby | Remix | Astro |
+|-------------------|----------|--------|-------|-------|
+| Maintenance       | 4        | 4      | 4     | 4     |
+| Reputable         | 4        | 4      | 3     | 4     |
+| Compatibility     | 4        | 4      | 4     | 4     |
+| Community         | 4        | 4      | 3     | 4     |
+| Documentation     | 4        | 4      | 4     | 4     |
+| Licensing         | 4        | 4      | 4     | 4     |
+| Extensible        | 4        | 4      | 4     | 4     |
+| Size              | 3        | 3      | 3     | 3     |
+| **Total Score**   | **31**   | **31** | **29**| **31**|
+
 
 
 **3. Mengapa memilih salah satunya?**
@@ -54,6 +61,10 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 - **Mengapa memilih Remix?**
   - **Pro**: Remix menawarkan pendekatan yang segar dalam pengembangan React, dengan fokus pada navigasi cepat dan pengalaman pengguna yang ditingkatkan.
   - **Con**: Karena Remix adalah pendatang baru, mungkin ada kurva belajar dan kurangnya sumber daya dibandingkan dengan solusi lain yang lebih mapan.
+
+  **Mengapa memilih Astro?**
+  - **Pro**: Astro adalah platform pengembangan web yang sangat mudah diatur dan digunakan, ditujukan untuk desain API berorientasi server dan tidak memasukkan runtime JS. Astro menawarkan seperangkat alat lengkap untuk memenuhi semua kebutuhan pengembang, seperti routing berbasis file, pengambilan data, manajemen sumber daya, dan lainnya. Astro mendukung integrasi dengan framework populer lainnya seperti React, Preact, Svelte, dan Vue tanpa mempengaruhi operasional atau membuat pengembangan menjadi lebih kompleks, serta menawarkan dukungan untuk Markdown.
+  - **Con**: Astro mungkin bukan framework ideal untuk proyek yang sangat kompleks atau interaktif seperti dashboard administrasi atau jaringan sosial. Astro lebih fokus pada pengembangan situs web yang kaya akan gambar dan konten statis. Meskipun komunitas seputar Astro sedang berkembang dan sangat aktif, jumlah sumber daya, alat, dan fungsionalitas yang tersedia belum bisa bersaing dengan framework yang lebih terkenal dan mapan seperti React, setidaknya untuk saat ini.
 
 **Jika menggunakan Next.js:**
 | **Pros** | **Cons** |
@@ -81,6 +92,16 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
 | 3. Mendukung nested routing dengan mudah. | 3. Mungkin kurangnya plugin atau integrasi dibandingkan dengan solusi lain. |
 | 4. Dekat dengan prinsip-prinsip React asli. | 4. Masih dalam tahap awal perkembangannya. |
 | 5. Peningkatan performa dengan pendekatan "loading" yang cerdas. | 5. Mungkin ada fitur atau kasus penggunaan yang belum didukung sepenuhnya.
+
+**Jika menggunakan Astro:**
+| **Pros** | **Cons** |
+|----------|----------|
+| 1. Mudah diatur dan digunakan dengan desain API berorientasi server. | 1. Tidak ideal untuk proyek yang sangat kompleks atau interaktif. |
+| 2. Dapat digunakan bersama dengan framework populer lainnya. | 2. Jumlah sumber daya dan alat belum bisa bersaing dengan framework lebih mapan. |
+| 3. Menawarkan seperangkat alat lengkap untuk kebutuhan pengembang. | 3. Lebih fokus pada pengembangan situs web dengan konten statis. |
+| 4. Komunitas yang aktif dan terus berkembang. | 4. Masih dalam tahap awal perkembangannya. |
+| 5. Dukungan bawaan untuk Markdown. | 5. Masa depan Astro masih perlu waktu untuk terlihat. |
+
 ---
 
 **4. Kapan Sebaiknya Menggunakan Framework Ini?**
@@ -103,10 +124,16 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
   3. **Pengembangan Berorientasi Komponen**: Jika Anda mencari pendekatan yang lebih terpusat pada komponen, Remix memberikan struktur yang sesuai.
   4. **Integrasi dengan Sistem Backend**: Remix memudahkan integrasi dengan berbagai sistem backend, memungkinkan pembangunan aplikasi yang lebih kohesif.
 
+- **Kapan Astro Cocok Dipakai?**
+  1. **Situs Web Konten-Rich**: Astro sangat cocok untuk situs yang kaya akan konten seperti blog, portofolio, situs penerbitan, dokumentasi, dan situs pemasaran.
+  2. **Integrasi dengan Beberapa Framework**: Astro memungkinkan integrasi dengan berbagai framework seperti React, Vue, Svelte, dan lainnya, membuatnya fleksibel dan sesuai preferensi pengembang.
+  3. **Performa Sisi Klien**: Dengan fokus pada optimalisasi sisi klien dan fitur partial hydration, Astro dapat menghasilkan situs dengan performa yang sangat baik.
+  4. **Pengembangan Statis dan Server-Side Rendering (SSR)**: Astro mendukung pengembangan komponen statis dan memiliki fitur server-side rendering untuk meningkatkan SEO dan peringkat situs.
+
 
 **5. Popularitas:**
 
-- **Next.js** telah menarik perhatian besar dari komunitas pengembangan dengan lebih dari 112,000 bintang di GitHub dan lebih dari 2,884 kontributor. Dalam 12 bulan terakhir, popularitasnya tampak meningkat sekitar 10%. Sebagai kontrast, **Gatsby**, meski sudah cukup populer, memiliki sekitar 54,7000 bintang di GitHub dengan lebih dari 1,300 kontributor. Popularitas Gatsby dalam setahun terakhir menunjukkan pertumbuhan sekitar 5%. Sementara itu, **Remix**, meskipun masih relatif baru di arena, telah dengan cepat mendapatkan traksi dengan sekitar 24,600 bintang di GitHub dan sekitar 3,982 kontributor. Menariknya, Remix menunjukkan peningkatan popularitas yang paling rendah dalam 12 bulan terakhir, dengan pertumbuhan stagnan. [Sumber](https://npmtrends.com/gatsby-vs-next-vs-remix)
+- **Next.js** telah menarik perhatian besar dari komunitas pengembangan dengan lebih dari 112,000 bintang di GitHub dan lebih dari 2,884 kontributor. Dalam 12 bulan terakhir, popularitasnya tampak meningkat sekitar 10%. Sebagai kontrast, **Gatsby**, meski sudah cukup populer, memiliki sekitar 54,7000 bintang di GitHub dengan lebih dari 1,300 kontributor. Popularitas Gatsby dalam setahun terakhir menunjukkan pertumbuhan sekitar 5%. Sementara itu, **Remix**, meskipun masih relatif baru di arena, telah dengan cepat mendapatkan traksi dengan sekitar 24,600 bintang di GitHub dan sekitar 3,982 kontributor. Menariknya, Remix menunjukkan peningkatan popularitas yang paling rendah dalam 12 bulan terakhir, dengan pertumbuhan stagnan. **Astro** merupakan pendatang baru yang telah menarik perhatian komunitas pengembangan dengan memiliki sekitar 35,000 bintang di GitHub dan 597 kontributor. Dalam 12 bulan terakhir, Astro telah menunjukkan pertumbuhan popularitas paling banyak sekitar 150%. [Sumber](https://npmtrends.com/gatsby-vs-next-vs-remix)
 
 **6. Pertimbangan Performa untuk Ketiga Framework:**
 
@@ -130,6 +157,17 @@ Performa dari Next.js, Gatsby, dan Remix bisa berbeda tergantung pada bagaimana 
   - **Server Functions**: Anda memiliki kontrol rinci atas fungsi server, memungkinkan Anda untuk mengoptimalkan logika server-side untuk performa.
   - **Kurva Belajar**: Pendekatan unik Remix terhadap pemuatan data dan routing mungkin memerlukan perencanaan dan optimasi yang cermat untuk performa optimal.
 
+- **Astro**
+  - **Static Site Generation (SSG)**: Astro menawarkan kemampuan untuk menghasilkan situs statis, yang mengoptimalkan waktu pemuatan halaman awal karena halaman telah dibangun pada tahap build.
+  - **Partial Hydration**: Astro unik dalam mendukung Partial Hydration, yang berarti hanya komponen yang diperlukan yang akan dihidration dengan JavaScript, mengurangi beban JavaScript dan meningkatkan waktu pemuatan halaman.
+  - **Content Delivery Networks (CDNs)**: Situs Astro dapat dengan mudah dihosting di CDNs, memastikan pengiriman konten dengan latensi rendah ke pengguna di seluruh dunia.
+  - **Optimasi Aset**: Astro mengoptimalkan aset seperti gambar dan CSS secara otomatis, mempercepat pemuatan halaman.
+  - Astro memimpin dalam keberhasilan uji Core Web Vitals (CWV) Assessment oleh Google, dengan lebih dari 50% situs yang diuji lulus. 
+  - **Largest Contentful Paint (LCP)**: Astro bersama dengan SvelteKit mengalahkan rata-rata dalam metrik ini, menunjukkan kecepatan pemuatan konten utama halaman.
+  - **Cumulative Layout Shift (CLS)**: Astro memiliki skor tinggi dalam stabilitas visual, dengan lebih dari 75% situs yang diuji lulus dalam metrik ini.
+  - **First Input Delay (FID) & Interaction to Next Paint (INP)**: Astro memiliki responsivitas yang baik dalam interaksi pengguna pertama dan seluruh interaksi selama sesi.
+
+
 Penting untuk dicatat bahwa performa tergantung tidak hanya pada framework tetapi juga pada faktor seperti kode aplikasi Anda, lingkungan hosting, dan upaya optimasi yang Anda lakukan. Untuk mencapai performa terbaik, pertimbangkan:
 
 - **Optimasi Gambar**: Kompres dan layani gambar dengan efisien.
@@ -139,19 +177,25 @@ Penting untuk dicatat bahwa performa tergantung tidak hanya pada framework tetap
 - **Konfigurasi Server**: Optimalkan pengaturan dan konfigurasi server untuk framework pilihan Anda.
 - **Pemantauan dan Profiling**: Terus pantau dan profil aplikasi Anda untuk mengidentifikasi dan mengatasi bottleneck performa.
 
-Pada akhirnya, pilihan antara Next.js, Gatsby, dan Remix harus didasarkan pada kebutuhan spesifik proyek Anda dan keahlian tim Anda. Ketiga framework ini dapat digunakan untuk membangun aplikasi berkinerja tinggi saat dikonfigurasi dan dioptimalkan dengan benar.
+Pada akhirnya, pilihan antara Next.js, Gatsby, Remix, dan Astro harus didasarkan pada kebutuhan spesifik proyek Anda dan keahlian tim Anda. Ketiga framework ini dapat digunakan untuk membangun aplikasi berkinerja tinggi saat dikonfigurasi dan dioptimalkan dengan benar.
 
 **7. Kesimpulan:**
 
 - Untuk aplikasi dengan kebutuhan Server-Side Rendering dan kemudahan dalam pengembangan, **Next.js** menjadi pilihan yang menarik.
 - Jika fokus Anda adalah pada situs web statis dengan kecepatan dan performa tinggi, **Gatsby** mungkin lebih sesuai.
 - Bagi mereka yang mencari pendekatan baru dalam pengembangan React dengan optimasi navigasi dan data, **Remix** patut dipertimbangkan.
+- Untuk proyek yang menuntut performa tinggi dengan penggunaan JavaScript yang minimal pada sisi klien, **Astro** dapat menjadi opsi yang layak, terutama dengan kelebihannya dalam Core Web Vitals.
 
 
 
 ### Referensi:
 
-- [NextJs vs Gatsby vs Remix Users Downloads](https://npmtrends.com/gatsby-vs-next-vs-remix)
+- [NextJs vs Gatsby vs Remix vs Astro Users Downloads](https://npmtrends.com/astro-vs-gatsby-vs-next-vs-remix)
 - [NextJs Pros and Cons](https://pagepro.co/blog/pros-and-cons-of-nextjs/)
 - [What's the difference between Gatsby and Next.js](https://hygraph.com/blog/gatsby-vs-nextjs)
 - [Remix Framework Review](https://hackernoon.com/remix-framework-review)
+- [2023 Web Framework Performance Report](https://astro.build/blog/2023-web-framework-performance-report/)
+- [Astro: everything you need to know about this increasingly popular framework](https://www.devinterface.com/en/blog/astro-everything-about-framework#:~:text=Pros%20and%20cons&text=The%20framework%20is%20indeed%20easy,resource%20management%20and%20much%20more.)
+
+
+
