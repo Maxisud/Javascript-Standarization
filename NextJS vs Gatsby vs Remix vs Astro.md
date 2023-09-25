@@ -25,7 +25,7 @@ Berdasarkan pengalaman beberapa pengembang saat mencoba membangun proyek mini me
   - **Data Loading:** Di Remix, setiap rute dapat mendefinisikan data yang dibutuhkannya, memastikan data tersedia sebelum halaman di-render.
   - **Transition Control:** Remix memberikan kontrol yang lebih besar atas transisi halaman, memberikan pengalaman pengguna yang lebih halus
 
-  - **Astro:**
+  **Astro:**
   - **Pengiriman JavaScript Efisien:** Astro memungkinkan pengembangan situs dengan mengirimkan JavaScript yang efisien dan minimal, menghasilkan kecepatan load halaman yang sangat cepat.
   - **Rendering Modes:** Astro menawarkan berbagai mode rendering seperti SSR, SSG, dan lainnya, memberikan fleksibilitas dalam pengembangan aplikasi.
   - **Komponen Berbasis File:** Struktur berbasis file Astro mempermudah pengembangan dengan pendekatan komponen, memudahkan organisasi kode.
