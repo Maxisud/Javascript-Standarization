@@ -198,4 +198,3 @@ Pada akhirnya, pilihan antara Next.js, Gatsby, Remix, dan Astro harus didasarkan
 - [Astro: everything you need to know about this increasingly popular framework](https://www.devinterface.com/en/blog/astro-everything-about-framework#:~:text=Pros%20and%20cons&text=The%20framework%20is%20indeed%20easy,resource%20management%20and%20much%20more.)
 
 
-
