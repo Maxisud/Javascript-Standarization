@@ -124,6 +124,4 @@ Berikut adalah penilaian dari kedua pustaka logging, Pino dan Winston, berdasark
 
 - [Pino GitHub Repository](https://github.com/pinojs/pino)
 - [Winston GitHub Repository](https://github.com/winstonjs/winston)
-- ["An Introduction to Pino" - LogRocket Blog](https://blog.logrocket.com/an-introduction-to-pino-a-super-fast-node-js-logger/)
-- ["Advanced Logging with Node.js" - Toptal Blog](https://www.toptal.com/nodejs/best-practices-logging-nodejs-application)
 - ["Logging in Node.js: A Comparison of the Top 8 Libraries"](https://betterstack.com/community/guides/logging/best-nodejs-logging-libraries/)
