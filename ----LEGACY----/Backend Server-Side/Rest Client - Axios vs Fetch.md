@@ -64,21 +64,21 @@ Menghadapi pilihan antara menggunakan Axios atau Fetch sebagai klien REST dalam 
 
 ### **Mengapa memilih Axios?**
   - **Pro**:
-    1. **Fitur Tambahan**: Axios memiliki beberapa fitur tambahan seperti transformasi JSON otomatis, pembatalan permintaan, timeout permintaan, dan interceptor yang dapat memudahkan dan mempercepat proses pengembangan【22†source】.
-    2. **Dukungan Browser Luas**: Axios mendukung sebagian besar browser termasuk browser lama seperti IE11, yang bisa menjadi keuntungan besar dalam proyek yang membutuhkan kompatibilitas browser yang luas【24†source】.
-    3. **Kurang Boilerplate**: Axios membutuhkan kode boilerplate lebih sedikit dibandingkan dengan Fetch, yang bisa menghemat waktu dan usaha pengembang【25†source】.
+    1. **Fitur Tambahan**: Axios memiliki beberapa fitur tambahan seperti transformasi JSON otomatis, pembatalan permintaan, timeout permintaan, dan interceptor yang dapat memudahkan dan mempercepat proses pengembangan.
+    2. **Dukungan Browser Luas**: Axios mendukung sebagian besar browser termasuk browser lama seperti IE11, yang bisa menjadi keuntungan besar dalam proyek yang membutuhkan kompatibilitas browser yang luas.
+    3. **Kurang Boilerplate**: Axios membutuhkan kode boilerplate lebih sedikit dibandingkan dengan Fetch, yang bisa menghemat waktu dan usaha pengembang.
     4. **Dukungan Komunitas yang Kuat**: Komunitas yang aktif dan dokumentasi yang baik dapat membantu pengembang untuk memahami dan mengimplementasikan Axios dengan lebih efisien.
   - **Con**:
     1. **Ukuran Library**: Meskipun ukurannya kecil, Axios masih lebih besar dibandingkan dengan Fetch yang merupakan API bawaan browser.
 
 ### **Mengapa memilih Fetch?**
   - **Pro**:
-    1. **Sederhana dan Asli**: Fetch adalah cara yang lebih sederhana dan asli untuk membuat permintaan HTTP dan mungkin lebih mudah dimengerti bagi pengembang yang baru dalam pengembangan web【22†source】.
+    1. **Sederhana dan Asli**: Fetch adalah cara yang lebih sederhana dan asli untuk membuat permintaan HTTP dan mungkin lebih mudah dimengerti bagi pengembang yang baru dalam pengembangan web.
     2. **API Bawaan Browser**: Sebagai API bawaan browser, Fetch tidak memerlukan pengguna untuk menginstal library tambahan.
     3. **Lebih Ringan**: Fetch mungkin lebih ringan dibandingkan dengan Axios karena memiliki fitur yang lebih sedikit.
   - **Con**:
-    1. **Penanganan Error**: Fetch tidak menolak promise pada respons error, yang berarti pengembang perlu menangani kode status HTTP secara manual, yang bisa menjadi proses yang menjengkelkan【22†source】.
-    2. **Dukungan Browser Terbatas**: Fetch tidak didukung secara luas di antara browser lama, dan mungkin memerlukan polyfill untuk dukungan browser lama【24†source】.
+    1. **Penanganan Error**: Fetch tidak menolak promise pada respons error, yang berarti pengembang perlu menangani kode status HTTP secara manual, yang bisa menjadi proses yang menjengkelkan.
+    2. **Dukungan Browser Terbatas**: Fetch tidak didukung secara luas di antara browser lama, dan mungkin memerlukan polyfill untuk dukungan browser lama.
 
 **Jika menggunakan Axios:**
 | **Pros** | **Cons** |
